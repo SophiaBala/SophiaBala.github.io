@@ -11,7 +11,7 @@
 main {
     flex: 1;
     padding: 8px;
-    min-height: calc(100vh - 80px); /* Забезпечує правильну висоту, враховуючи панель навігації */
+    min-height: calc(100vh - 80px);
     overflow-y: auto;
 }
 
@@ -55,9 +55,9 @@ main {
 .info-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px; /* Відступи між блоками */
+    gap: 10px; 
     padding: 10px;
-    margin-bottom: 80px; /* Відступ для навігаційної панелі */
+    margin-bottom: 80px; 
 }
 
 .info {
@@ -91,7 +91,7 @@ main {
     justify-content: space-around;
     padding: 10px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Щоб переконатися, що панель завжди зверху */
+    z-index: 1000;
 }
 
     .navbar a {
