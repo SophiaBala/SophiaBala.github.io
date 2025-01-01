@@ -26,6 +26,10 @@ body {
         background: linear-gradient(to bottom, #E9E6DF, #F8EBE2);
     }
 
+    body.rehabilitation {
+        background: linear-gradient(to bottom, #FCF5E1, #909C86);
+    }
+
 .center-card {
     display: flex;
     align-items: center;
